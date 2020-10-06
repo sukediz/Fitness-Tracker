@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RecordSword/Workout-tracker.git"
+    "url": "git+https://github.com/sukediz/Workout-tracker.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RecordSword/Workout-tracker/issues"
+    "url": "https://github.com/sukediz/Workout-tracker/issues"
   },
-  "homepage": "https://github.com/RecordSword/Workout-tracker#readme",
+  "homepage": "https://github.com/sukediz/Workout-tracker#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.10.3",
