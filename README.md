@@ -24,7 +24,9 @@ When deploying onto Heroku, update the MongoDB username and password to reflect 
 
 * In GitBash or other command line tool, run `node server.js` to initiate the program. This will start the server.
 
-* Use arrow keys to follow the prompts to complete your desired action.
+* Click "New Workout" to input data relating to your workout. 
+
+* To view Workout progress, click the top left corner "Fitness Tracker Dashboard".
 
 ### Deployment
 
