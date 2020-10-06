@@ -1,57 +1,43 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Employee Management System
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+[![](https://img.shields.io/badge/License-ISC-green)](https://opensource.org/licenses/ISC)
 
-## User Story
+### Description
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+This web-based application allows users to track out their fitness progess by logging their workouts. It is built with Node.js, Express and MongoDB. Users can add, view, update and delete workout information with a visually pleasing Fitness Dashboard allowing users to view their workout progress.
 
-## Business Context
+### Table of Contents
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Deployment](#deployment)
+* [License](#license)
+* [Contributing](#contributing)
+* [Questions](#questions)
 
-## Acceptance Criteria
+### Installation
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+Clone the GitHub repository to your local drive. Run `npm install` to install dependencies. Make sure you have Node.js, MongoDB and Robo 3T installed.
+When deploying onto Heroku, update the MongoDB username and password to reflect of those in your MongoDB Cloud Atlas account.  Remember to run `npm run seed` to install the MongoDB.found [here](db/schema.sql)
 
-The user should be able to:
+### Usage
 
-  * Add exercises to a previous workout plan.
+* In GitBash or other command line tool, run `node server.js` to initiate the program. This will start the server.
 
-  * Add new exercises to a new workout plan.
+* Use arrow keys to follow the prompts to complete your desired action.
 
-  * View the combined weight of multiple exercises on the `stats` page.
+### Deployment
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+View the Heroku deployment [here](https://secure-wildwood-48522.herokuapp.com/)
 
-  * [Set Up MongoDB Atlas](../04-Supplemental/MongoAtlas-Setup.md)
+### Contributing
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Supplemental/MongoAtlas-Deploy.md)
+Contributions are welcome. Feel free to fork the project and create a pull request with your changes.
 
-## Commit Early and Often
+### License
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
+This project is licensed under the terms of the ISC license. Read more about this license [here](https://opensource.org/licenses/ISC).
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+### Questions
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+Please message on my Git Repo for any questions.
